@@ -8,6 +8,7 @@ bot = telebot.TeleBot(constants.token)
 
 s=""
 food=""
+curr =""
 @bot.message_handler(commands=['start'])
 def handle_start(message):
     user_markup = telebot.types.ReplyKeyboardMarkup(True, False)
@@ -29,6 +30,7 @@ def handle_text(message):
 def handle_text(message):
     global s
     global food
+    global curr
     if message.text == "🍽 Где поесть в Алматы ?":
         keyboard = telebot.types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
         near = telebot.types.KeyboardButton(text="Ближайшие")
@@ -123,7 +125,7 @@ def handle_text(message):
         user_markup.row("Конвертер валют")
         bot.send_message(message.chat.id, 'Меню', reply_markup=user_markup)
 
-    elif message.text == "Конвертер валют":
+    elif message.text =="Конвертер валют":
         keyboard = telebot.types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
         button1 = telebot.types.KeyboardButton(text="Перевести с KZT в другую валюту")
         button2 = telebot.types.KeyboardButton(text="Перевести с другой валюты в KZT")
@@ -143,35 +145,60 @@ def handle_text(message):
         keyboard.add(usd, gbp, chi, rus, eur, korea, back)
         bot.send_message(message.chat.id, text="Выберите", reply_markup=keyboard)
 
-    if message.text == "USD":
-
-        money1 = bot.send_message(message.chat.id, "Введите сумму:")
-        print(message.chat.id)
-        res = int(str(money1))+100
-        bot.send_message(message.chat.id, "Ваш результат " + res)
-
-
-"""
+    elif message.text == "USD":
+        bot.send_message(message.chat.id, "Введите сумму:")
+        curr = "USD"
     elif message.text == "GBP":
-        keyboard = telebot.types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
-        money1 = bot.send_message(message.chat.id, "Введите сумму:", reply_markup=keyboard)
-        bot.send_message(message.chat.id, "lala", reply_markup=keyboard)
-    elif message.text == "CNY":
-        keyboard = telebot.types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
-        money1 = bot.send_message(message.chat.id, "Введите сумму:", reply_markup=keyboard)
-        bot.send_message(message.chat.id, "lala", reply_markup=keyboard)
-    elif message.text == "KRW":
-        keyboard = telebot.types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
-        money1 = bot.send_message(message.chat.id, "Введите сумму:", reply_markup=keyboard)
-        bot.send_message(message.chat.id, "lala", reply_markup=keyboard)
+        bot.send_message(message.chat.id, "Введите сумму:")
+        curr = "GBP"
     elif message.text == "RUR":
-        keyboard = telebot.types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
-        money1 = bot.send_message(message.chat.id, "Введите сумму:", reply_markup=keyboard)
-        bot.send_message(message.chat.id, "lala", reply_markup=keyboard)
+        bot.send_message(message.chat.id, "Введите сумму:")
+        curr = "RUR"
+    elif message.text == "CNY":
+        bot.send_message(message.chat.id, "Введите сумму:")
+        curr = "CNY"
+    elif message.text == "KRW":
+        bot.send_message(message.chat.id, "Введите сумму:")
+        curr = "KRW"
     elif message.text == "EUR":
-        keyboard = telebot.types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
-        money1 = bot.send_message(message.chat.id, "Введите сумму:", reply_markup=keyboard)
-        bot.send_message(message.chat.id, "lala", reply_markup=keyboard)
+        bot.send_message(message.chat.id, "Введите сумму:")
+        curr = "EUR"
+    elif isinstance(int(message.text), int):
+        if curr=="USD":
+            res = int(message.text)*330
+            bot.send_message(message.chat.id, "Результат: " + str(res))
+            curr==""
+    elif isinstance(int(message.text), int):
+        if curr=="USD":
+         res = int(message.text)*330
+        bot.send_message(message.chat.id, "Результат: " + str(res))
+        curr==""
+    elif isinstance(int(message.text), int):
+        if curr=="GBP":
+         res = int(message.text)*330
+        bot.send_message(message.chat.id, "Результат: " + str(res))
+        curr==""
+    elif isinstance(int(message.text), int):
+        if curr=="KRW":
+         res = int(message.text)*330
+        bot.send_message(message.chat.id, "Результат: " + str(res))
+        curr==""
+    elif isinstance(int(message.text), int):
+        if curr=="CNY":
+         res = int(message.text)*330
+        bot.send_message(message.chat.id, "Результат: " + str(res))
+        curr==""
+    elif isinstance(int(message.text), int):
+        if curr=="RUR":
+         res = int(message.text)*330
+        bot.send_message(message.chat.id, "Результат: " + str(res))
+        curr==""
+    elif isinstance(int(message.text), int):
+        if curr=="EUR":
+         res = int(message.text)*330
+         bot.send_message(message.chat.id, "Результат: " + str(res))
+        curr==""
+
 
     elif message.text == "Перевести с другой валюты в KZT":
         keyboard = telebot.types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
@@ -183,35 +210,60 @@ def handle_text(message):
         eur = telebot.types.KeyboardButton(text="EUR", )
         back = telebot.types.KeyboardButton(text=":Назад")
         keyboard.add(usd, gbp, chi, rus, eur, korea, back)
-        money2 = bot.send_message(message.chat.id, "Введите сумму:?", reply_markup=keyboard)
-        if message.text == "USD":
-            keyboard = telebot.types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
-            money1 = bot.send_message(message.chat.id, "Введите сумму:", reply_markup=keyboard)
-            bot.send_message(message.chat.id, "lala", reply_markup=keyboard)
-        elif message.text == "GBP":
-            keyboard = telebot.types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
-            money1 = bot.send_message(message.chat.id, "Введите сумму:", reply_markup=keyboard)
-            bot.send_message(message.chat.id, "lala", reply_markup=keyboard)
-        elif message.text == "CNY":
-            keyboard = telebot.types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
-        money1 = bot.send_message(message.chat.id, "Введите сумму:", reply_markup=keyboard)
-        bot.send_message(message.chat.id, "lala", reply_markup=keyboard)
-        bot.send_message(message.chat.id, money2 / 1, reply_markup=keyboard)
+        bot.send_message(message.chat.id, text="Выберите", reply_markup=keyboard)
+    elif message.text == "USD":
+        bot.send_message(message.chat.id, "Введите сумму:")
+        curr = "USD"
+    elif message.text == "GBP":
+        bot.send_message(message.chat.id, "Введите сумму:")
+        curr = "GBP"
+    elif message.text == "RUR":
+        bot.send_message(message.chat.id, "Введите сумму:")
+        curr = "RUR"
+    elif message.text == "CNY":
+        bot.send_message(message.chat.id, "Введите сумму:")
+        curr = "CNY"
     elif message.text == "KRW":
-        keyboard = telebot.types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
-    money1 = bot.send_message(message.chat.id, "Введите сумму:", reply_markup=keyboard)
-    bot.send_message(message.chat.id, "lala", reply_markup=keyboard)
-    
-    elif message.text == "RUR": 
-        keyboard = telebot.types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
-        money1 = bot.send_message(message.chat.id, "Введите сумму:", reply_markup=keyboard)
-        bot.send_message(message.chat.id, "lala", reply_markup=keyboard)
-            
+        bot.send_message(message.chat.id, "Введите сумму:")
+        curr = "KRW"
     elif message.text == "EUR":
-        keyboard = telebot.types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
-        money1 = bot.send_message(message.chat.id, "Введите сумму:", reply_markup=keyboard)
-        bot.send_message(message.chat.id, "lala", reply_markup=keyboard)
-       """
+        bot.send_message(message.chat.id, "Введите сумму:")
+        curr = "EUR"
+    elif isinstance(int(message.text), int):
+        if curr == "USD":
+            res = int(message.text) * 330
+        bot.send_message(message.chat.id, "Результат: " + str(res))
+        curr == ""
+    elif isinstance(int(message.text), int):
+        if curr == "USD":
+            res = int(message.text) * 330
+        bot.send_message(message.chat.id, "Результат: " + str(res))
+        curr == ""
+    elif isinstance(int(message.text), int):
+        if curr == "GBP":
+            res = int(message.text) * 330
+        bot.send_message(message.chat.id, "Результат: " + str(res))
+        curr == ""
+    elif isinstance(int(message.text), int):
+        if curr == "KRW":
+            res = int(message.text) * 330
+        bot.send_message(message.chat.id, "Результат: " + str(res))
+        curr == ""
+    elif isinstance(int(message.text), int):
+        if curr == "CNY":
+            res = int(message.text) * 330
+        bot.send_message(message.chat.id, "Результат: " + str(res))
+        curr == ""
+    elif isinstance(int(message.text), int):
+        if curr == "RUR":
+            res = int(message.text) * 330
+        bot.send_message(message.chat.id, "Результат: " + str(res))
+        curr == ""
+    elif isinstance(int(message.text), int):
+        if curr == "EUR":
+            res = int(message.text) * 330
+            bot.send_message(message.chat.id, "Результат: " + str(res))
+        curr == ""
 def weath(message):
     owm = pyowm.OWM("6e4cdd6906c809a53f60196519cff051")
     city = message.text
