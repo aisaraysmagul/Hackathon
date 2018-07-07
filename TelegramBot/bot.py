@@ -198,8 +198,6 @@ def handle_text(message):
          res = int(message.text)*330
          bot.send_message(message.chat.id, "Результат: " + str(res))
         curr==""
-
-
     elif message.text == "Перевести с другой валюты в KZT":
         keyboard = telebot.types.ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
         usd = telebot.types.KeyboardButton(text="USD", )
@@ -276,7 +274,6 @@ def weath(message):
     bot.send_message(message.chat.id, "Сейчас в городе " + str(city) + " " + str(desc) + ", температура - " + str(temperature) + "°C, влажность - " + str(hum) + "%, скорость ветра - " +str(wind) + "м/с.")
 
 
-
 @bot.message_handler(content_types=['location'])
 def handle_location(message):
     ulat = str(message.location.latitude)
@@ -310,6 +307,7 @@ def handle_location(message):
                                          address) + "\n" + "⭐ rating: " + str(
                                          rating) + "\n" + "🚪 Open/Close Unknown" + "\n" + "📍 location: ")
                     bot.send_location(message.chat.id, lat, lng)
+
     elif(s=="nearbyfood"):
         global food
         path = "https://maps.googleapis.com/maps/api/place/textsearch/json?query=" + food + "&location=" + ulat + "," + ulng + "&radius=300&key=AIzaSyC0AuanxSq5DMmcnojnInlFRzqz0KF5HZI"
@@ -340,8 +338,6 @@ def handle_location(message):
                     bot.send_location(message.chat.id, lat, lng)
     elif(s=='hotel'):
         path = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" + ulat + "," + ulng + "&radius=400&type=lodging&key=AIzaSyC0AuanxSq5DMmcnojnInlFRzqz0KF5HZI"
-        ind = 0
-        print(path)
         with urllib.request.urlopen(path) as url:
             data = json.loads(url.read().decode())['results']
             for i in range(len(data)):
