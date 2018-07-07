@@ -1,0 +1,431 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 43.2433544,
+               "lng" : 76.9544327
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.2445035802915,
+                  "lng" : 76.95581188029151
+               },
+               "southwest" : {
+                  "lat" : 43.24180561970851,
+                  "lng" : 76.9531139197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "8b10412e58f9ef64fcc47cffa58c4e27416afeb0",
+         "name" : "Ресторан Крудо Стейкхаус 2",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106355913140834540990/photos\"\u003eEldar K.\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAm65q3WyP5iGjrarov81pV_MNnn7IyXipf3gQzesN7yApSneH1UoGQBLfNAzrq_ZXhRZh-NVTcOFIKc1NGDlDsn_48vDteK1PutDrN_VriHzgM4sMe-L5EGyVZW0V66_REhDuCLM05fNZtXZeIzFtVuFhGhSl4Al6aoYc4X99zNWZIDmUy0XRQw",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJ8XJcdPBugzgRic5__j_mBmU",
+         "plus_code" : {
+            "compound_code" : "6XV3+8Q Алматы, Казахстан",
+            "global_code" : "8JMR6XV3+8Q"
+         },
+         "rating" : 4.5,
+         "reference" : "CmRRAAAAqTEKpphMgw0NuAue0b4AKOGrU6ObqP5R5dgG35B_SFf8prGVK2WzdSSpCQCca_Zb7CWb9pPOeOvY4ZHS8NlQorqa_lw_VdB7ms8J3kw2-IdYl_l6M-9cmTquRNLravw5EhCN2slTvhNYNn7AzUQSz_KFGhQShsXLdyRnvtKRA4wSfpj1iq4Smg",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "проспект Абая 17, Алматы"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 43.24339079999999,
+               "lng" : 76.9541401
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.24451038029149,
+                  "lng" : 76.95552373029152
+               },
+               "southwest" : {
+                  "lat" : 43.24181241970849,
+                  "lng" : 76.95282576970851
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "65f4aecf357c8b00596c482f75257c77d3343856",
+         "name" : "PitaGreen",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106561600154354574884/photos\"\u003eBakhtiyar Aliyev\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAASYgoehi0LqO9Lgp1fb5asc5dQ5YVNuUK176eOCSfL9wpJ8WlL2CSGcbIhtIKr0tJVbNx4lTfqU7uFYMwLUatQi2eFfNVDJfNBRE2Sd9K0grr1O8D-fYf-MSr_M3ffxEyEhC1tqJYgierThq-reB1ycyLGhRxUqSkODrZYlBZO2cf_on6IGzdBg",
+               "width" : 5184
+            }
+         ],
+         "place_id" : "ChIJL91dC_BugzgR9MGyGUqzjDw",
+         "plus_code" : {
+            "compound_code" : "6XV3+9M Алматы, Казахстан",
+            "global_code" : "8JMR6XV3+9M"
+         },
+         "rating" : 4.5,
+         "reference" : "CmRRAAAA869fAAjlnanzbKxk9ZkA1ei0hPnClVZtwONeJ504X15APC5vfjZvjEa0MkH2-ggnIs6lrf3N0PuAcV-n2v3172SvIONUXc7qI8EMJoFrSjHeL6oSTk29dq1dnV0FUi2vEhCktHjiZlUecqhKh0vPhWNfGhQJMpXPerb8ZWgh6jZs_aR1w-_yWA",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "проспект Абая 17, Алматы"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 43.24111910000001,
+               "lng" : 76.9574408
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.2424591802915,
+                  "lng" : 76.95865218029151
+               },
+               "southwest" : {
+                  "lat" : 43.2397612197085,
+                  "lng" : 76.9559542197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "b589932743ab4badfbdc8dd220f97168424fa0e0",
+         "name" : "Каганат",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3096,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116619954873140151293/photos\"\u003eTimur Tampishev\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAyV6aJCxbc5PnUpZ1vQB7urbAamp88xRGmP3Yfk9EF7SJD4HUVvkBNqpLNzwtWrGdncvwfurvMOfOfq4lgv0owAvJQsEPBFK2M5fhxdSUbpspiI74jeZOwH1iu4OMpHLXEhAGXxOgdtgFpEsGblS7lUOTGhRe_m8ojB_dy4SfuofEz85txV9ZCw",
+               "width" : 4128
+            }
+         ],
+         "place_id" : "ChIJU6-sNPpugzgR1JuyTV1Dt8M",
+         "plus_code" : {
+            "compound_code" : "6XR4+CX Алматы, Казахстан",
+            "global_code" : "8JMR6XR4+CX"
+         },
+         "rating" : 4,
+         "reference" : "CmRSAAAAErmCEmFcy-R3C-JfsI8Ue2Vodpfi0wx-bbQPzFapS-CUwC2u-3d4h5ysFnbJRvd9xqesYbIKxyHEGvCZRcf-qJg1xG5Pk9SD89V-R4f1aJgxJyXIyR8LGoHQRayqZ-DqEhA2GdSyGVOAQewX89pKhFw0GhQVRJMkbGQaE0ozkgbojM5vKKLW4w",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "проспект Достык 108, Алматы"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 43.2433274,
+               "lng" : 76.954077
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.2444758302915,
+                  "lng" : 76.9554562802915
+               },
+               "southwest" : {
+                  "lat" : 43.24177786970851,
+                  "lng" : 76.95275831970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "a5348506e9139aef2ec651ecedc4d6eba0c23733",
+         "name" : "Пушкин городское кафе",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1280,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107362516721525229342/photos\"\u003eBonzai\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAhNkLR5ccGo75SYT56QyTpbFXPF_IpXRFV0i5CU-RnVwhOY2ZG_LKiG0PGYkK3XtbL99p0Ue9WsfoVx1C9jUj9LqnYPZhkH9GjK2msAfLspAiJSkyHR92O-OqCZVrvT8oEhD8vJDacdz3paaryxXnHX0zGhRDL355YfO4sC4N_w3lrm5nw_sQvA",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJNdgMC_BugzgRjWI2LwO9OCo",
+         "plus_code" : {
+            "compound_code" : "6XV3+8J Алматы, Казахстан",
+            "global_code" : "8JMR6XV3+8J"
+         },
+         "rating" : 4.7,
+         "reference" : "CmRRAAAADTpNbiP0vsL2YqDQiYKy9v1HvI9eNtfNxH6r2sVlqsSSQEU3BJjzXJJlPEVRGOHh9ZQFNs7rtNlFDRydrA68izIaS99vh9Ddv_TBchdoSQZF5IbnR0uakUti0Pho10ccEhAnkMP1hN9DFTfihASb1GW_GhRFEUpqejXSB-F9YSamOWxp3WqLMQ",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "bar", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "17, Abay Avenue, Almaty"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 43.24335509999999,
+               "lng" : 76.9545414
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.24450823029149,
+                  "lng" : 76.9559199802915
+               },
+               "southwest" : {
+                  "lat" : 43.24181026970849,
+                  "lng" : 76.95322201970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "ed43ca72de633acc28db50c26f703ec8fee48e9c",
+         "name" : "Rocket Pizza",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2268,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109888010462765401787/photos\"\u003eТимур Танирбергенов\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAADLQ5wVknu3VoFBGRVrE0TsEpb1yOo5Q98tIpwTbnCGTuXhWIALtwpxqRF1Yh2d8cKsPJiaX6WXED0fryiDqh7LUJza1ejVRapCmUE3iOs-Pq7EkgWFgvAVS4Rc21cot6EhCTr_pRx13DbIEzg7nDBj0JGhR_7IxuKUw0226nBeVVz7PDs_SonA",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ8SgldPBugzgRpD2fc97se7E",
+         "plus_code" : {
+            "compound_code" : "6XV3+8R Алматы, Казахстан",
+            "global_code" : "8JMR6XV3+8R"
+         },
+         "rating" : 5,
+         "reference" : "CmRSAAAAjesLcMe8AO1gFT770xOVpKXxMzaSrHG-Act8r-XW0tLDl8QcMPjFjZR-b5a2SyUM3yesJ71o89sDC0k7zOEGu493fYf2oA-s6XPAdSnQZBkeXtEv-z4S-dwryK5BDL8MEhCpeUE1ud6tn45dx1LVQA-KGhQaLvNkmFkcMNtnyka2q_QSx_nSlA",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "проспект Абая 17, Алматы"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 43.2431637,
+               "lng" : 76.95259469999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.2444794302915,
+                  "lng" : 76.95352263029149
+               },
+               "southwest" : {
+                  "lat" : 43.2417814697085,
+                  "lng" : 76.95082466970848
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "f41d88a999199b5005ec760342dd6133a113ae98",
+         "name" : "3 апельсина",
+         "place_id" : "ChIJteeK_u9ugzgRZA9IG-3ksj4",
+         "plus_code" : {
+            "compound_code" : "6XV3+72 Алматы, Казахстан",
+            "global_code" : "8JMR6XV3+72"
+         },
+         "rating" : 3.2,
+         "reference" : "CmRRAAAAC3bXlUxI18FAnHIoxxzStAlMaGmEOJl8AlSALvXK7jlIAccpRU8JB2I93vZEMKJOdpQqV7XtR2Qb6s_l-mQIpL6AbM5k3Waw0xO5NG8Tm8RP8O0z9axhgweLQHOOusIDEhDM14Sw3y9TlwPiBM7m42T5GhRGMis9hWl0hWZf8wGGXXenp1V3Vw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "улица Кунаева 23, Алматы"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 43.2415294,
+               "lng" : 76.9568654
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.2428863302915,
+                  "lng" : 76.9583374802915
+               },
+               "southwest" : {
+                  "lat" : 43.2401883697085,
+                  "lng" : 76.9556395197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "8517199a0344aa533c98e09edadf68ce5d01af92",
+         "name" : "Рестобар Венеция",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3096,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111412623592912215485/photos\"\u003eOlzhas Zhumadilov\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAun5HTeRRtUYmlQBqa9U9v0y5Lqscj0Pyq-EQbrFfmIud9uLPyIwXA1eevBaCs6kfp9ZQP7Vo_8im-LavaNbhro7Sg92rco8DVahNDSnMmTSgtvOGXw3MacV0ArArDXH0EhAmQSIKd0BsSYTqcA9WP84eGhSfy9zeeHZTB9Ci3EBLRKH8O3HCjg",
+               "width" : 4128
+            }
+         ],
+         "place_id" : "ChIJj405tvtugzgRhq9-v2rhz7c",
+         "plus_code" : {
+            "compound_code" : "6XR4+JP Алматы, Казахстан",
+            "global_code" : "8JMR6XR4+JP"
+         },
+         "rating" : 4,
+         "reference" : "CmRSAAAAvr7KFr7HcViODNCNpEqilmZTNCvxkioWdNymL_V_gWhnFsPqa2VoKYHFs0jGw1iX0KQaVFv0kj06MxtUwtMEPbF5y35KvysbCvzL5nSkBbfF34EDt0cD8rQLO4LXJ6O2EhAJee1Vdl09-SECG51Yy8IHGhSzedPxo_cDEIB2cCbCGIdPmr2pDA",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "проспект Достык 87A, Алматы"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 43.242268,
+               "lng" : 76.9574207
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.24361698029151,
+                  "lng" : 76.9587696802915
+               },
+               "southwest" : {
+                  "lat" : 43.24091901970851,
+                  "lng" : 76.95607171970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "cac11e1a702689fe9dd9d79a1bd9be27b5ba7000",
+         "name" : "Бургер Кинг",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113286028975429641030/photos\"\u003eSerhiy Shturkhetskyy\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAARBGSrAZzqyYP1raYcLlATTH_18N0eFMUF2RU0XeiLXdJfArh7486plK2UH49XzbM3W8reyA4ozyLeHu0IkkJi64fXotA4Jjx4sXCua-kcXZAQyp6ZpPLhGjNFQ_Q2V6EhBUCNSPj472PruDFeRVoNvgGhQ9uT-jcaoVQBgCVMcNaisdMouxxQ",
+               "width" : 3120
+            }
+         ],
+         "place_id" : "ChIJdVQFPvpugzgR6KhMbohBGFM",
+         "plus_code" : {
+            "compound_code" : "6XR4+WX Алматы, Казахстан",
+            "global_code" : "8JMR6XR4+WX"
+         },
+         "price_level" : 1,
+         "rating" : 4.2,
+         "reference" : "CmRRAAAAXddn1mo7kVV8js8XT6D_C6UEpJ2pw38PveHKFe2PcYf3GQrx7geNZ94odK-U4Drbp_WoKLMp1RvVoiRi5Ukg8wshj45B6-0eOJsuS4OS7rQNIKldilnKL4zhLxKiPjSuEhA-yB0YXLTnBxTCzpckCw5OGhQidKABeEbAT4hnGfpam_VNTyoyxw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Алматы"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 43.2412149,
+               "lng" : 76.95754409999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.2425513302915,
+                  "lng" : 76.95869843029151
+               },
+               "southwest" : {
+                  "lat" : 43.2398533697085,
+                  "lng" : 76.9560004697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "9ec8b5f84d9c2adcba5f731b65bb3d7c4a2adca3",
+         "name" : "Русская кухня",
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116695832281855492008/photos\"\u003eAlexandr Grand\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAu6t1jN3_0AHP7K-TL-YaetgzPI5A4vwcibcIwL5965mVSP_wvRscJsE7QWiZ-ZKMzr0iqPqy_qmOdzk6Ob-bgjX4ElD6Vxy7p846oU0hGaRLZgV5h8hRESAQK3n4LfzcEhAByeBBWnH3XvyN8BUOvd1aGhQWITDshK8t76zV9IdbQlLWNUTVmQ",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJfQhrM_pugzgRTEmCkHTtP58",
+         "plus_code" : {
+            "compound_code" : "6XR5+F2 Алматы, Казахстан",
+            "global_code" : "8JMR6XR5+F2"
+         },
+         "rating" : 2.3,
+         "reference" : "CmRSAAAAq_Pev1u0DBlKCMzxJeiud3Vz1AK4bKWUGXDpuKzyTzvTSZLJ3bEGwj8nUA9r7f_IVSYBpNAfobuaOTlrZWQRjtwq0iMTZZ2jHk283Lio6GbQ63Mf1orrC6-y36IQxEylEhD9DzU3oQMiKLdNSZwLw0j_GhRXnxfccmsloYGMAj1QTMyyIg8_Pw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "проспект Достык, Алматы"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 43.242065,
+               "lng" : 76.957604
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 43.2433972802915,
+                  "lng" : 76.95867828029151
+               },
+               "southwest" : {
+                  "lat" : 43.2406993197085,
+                  "lng" : 76.9559803197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "211c27c29dc3d2aa28efd2d00e233a5d9fbb0d8b",
+         "name" : "Сеть ресторанов АССОРТИ",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1280,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110486473287625878299/photos\"\u003eАссорти Ассорти\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAii5RjSpqJ2RovDDt7z3Kuy4_Oq8aFSFuan78lsgn40CzewvGKO636dd6CMiuQYs2Qq1MNT8JJaKkEck-APOVhV6xdS3oel0rdw8rdXfIPCZFriG8GJsWV2ueKh8GfP9OEhD5DWXb_DKs-E-tJAEiHHdrGhTbtoAe93ftcRz5-hkfsENykz--RA",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJr0biM_pugzgRKrA6R1v8TP0",
+         "plus_code" : {
+            "compound_code" : "6XR5+R2 Алматы, Казахстан",
+            "global_code" : "8JMR6XR5+R2"
+         },
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAPPg_dSYf4V-xwdTHqX7I6fZT8zUm0Eg3MKGH92nloKfenGy085adH9fnFAdVucxNjfW1ELZ9toBLQQe_hAxkIiHneGCi84SjVBxULfoT500TNx0Xj2fFDM-f__JNRsIYEhCFay675dA47Us4WsxrmwBqGhTymwZeHmurkkx-715GpWRM2efh7g",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "проспект Достык 106, Алматы"
+      }
+   ],
+   "status" : "OK"
+}
